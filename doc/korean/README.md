@@ -2,7 +2,7 @@
 
 이 항목에서는 Adjust의 Android SDK에 대해 설명합니다. Adjust에 대한 자세한 내용은 [adjust.com]을 참조하십시오.
 
-Web views를 쓰는 앱이며 Javascript 코드에서 Adjust 추적을 사용하고자 할 경우 안드로이드 [web views SDK 설명서](doc/english/web_views.md)를 참조해 주십시오.
+Web views를 쓰는 앱이며 Javascript 코드에서 Adjust 추적을 사용하고자 할 경우 안드로이드 [web views SDK 설명서](#webview)를 참조해 주십시오.
 
 Read this in other languages: [English][en-readme], [中文][zh-readme], [日本語][ja-readme], [한국어][ko-readme].
 
@@ -1018,6 +1018,7 @@ Adjust SDK는 이 때 초기화가 준비되지만 실제로 시작되지는 않
 [activity_resume_pause]:          doc/activity_resume_pause.md
 [reattribution-with-deeplinks]:   https://docs.adjust.com/ko/deeplinking/#part-6-1
 [android-purchase-verification]:  https://github.com/adjust/android_purchase_sdk/tree/master/doc/korean
+[webview]:                        https://github.com/adjust/sdks/blob/master/doc/ko-sdks/web_views.md
 
 ## <a id="license"></a>라이선스
 
