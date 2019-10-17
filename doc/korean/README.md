@@ -289,7 +289,7 @@ public class MainActivity extends Activity {
 
 이 단계를 완료하면 Adjust 브리지가 앱에 성공적으로 추가됩니다. 웹뷰에서 로드되는 사용자 페이지와 Adjust의 네이티브 안드로이드 SDK간 통신을 위해 이제 자바스크립트 브리지가 활성화됩니다.
 
-HTML 파일에서 자산 폴더의 루트에 위치해 있는 Adjust 자바스크립트 파일을 가져옵니다. HTML 파일이 있으면 다음과 같이 가져옵니다.
+자신의 HTML 파일에서 asset 폴더에 있는 Adjust 자바스크립트 파일을 import합니다. 자신의 HTML 파일이 있으면 다음과 같이 import 합니다.
 
 ```html
 <script type="text/javascript" src="adjust.js"></script>
@@ -398,7 +398,7 @@ public class YourActivity extends Activity {
 
 계정 매니저가 Adjust SDK 서명을 활성화해야 합니다. 이 기능을 사용해 보고자 할 경우 Adjust 지원 팀(support@adjust.com)으로 연락해 주십시오.
 
-SDK 서명이 계정에서 이미 사용 가능 상태로 Adjust 대시보드에서 App Secret에 액세스할 수 있는 상태라면, 아래 메소드를 사용하여 SDK 서명을 앱에 연동하십시오.
+SDK 서명이 자신의 계정에서 활성화 되어있고 Adjust 대시보드에서 App Secret를 발급할 수 있는 상태라면, 아래 메소드를 사용하여 App secret(앱 시크릿 키)를 앱에 연동하십시오.
 
 Config 인스턴스에서 `setAppSecret`를 호출하면 App Secret이 설정됩니다.
 
